@@ -1,0 +1,9 @@
+cflib==0.1.33
+importlib_resources==7.1.0
+libusb-package==1.0.26.4
+msgpack==1.2.1
+numpy==2.4.6
+packaging==25.0
+pyusb==1.3.1
+PyYAML==6.0.3
+scipy==1.17.1

@@ -1,0 +1,19 @@
+{
+  "schema": "active-hover-deployment-v1",
+  "build_id": "d4620ad5",
+  "active_project": "deployment/current/RL_takeoff",
+  "archive": "deployment/releases/RL_takeoff-d4620ad5-mac-windows.zip",
+  "download_url": "https://github.com/Meng-Zhao-flie/RL_takeoff/releases/download/hover-d4620ad5/RL_takeoff-d4620ad5-mac-windows.zip",
+  "archive_sha256": "5b07fc54e86896ca5f1e1733a7372ca4aa65850448a18b19b408fb07a43d2a51",
+  "active_flash_archive": "firmware/brushless_aligned_runtime/build/firmware.zip",
+  "root_flash_archive": "firmware/simple_hover_trial/build/firmware.zip",
+  "firmware_zip_sha256": "eb7c46f607b6dee2a83a951f3ae203abd26b1fe85d1e7ce662ca09e56ee1445f",
+  "release_intent": "diagnostic-hardware-trial",
+  "abi": 6,
+  "obs_dim": 119,
+  "policy_hz": 500,
+  "stable_takeoff_reported": true,
+  "hardware_validated": false,
+  "landing_trained": false,
+  "full_mission": false
+}

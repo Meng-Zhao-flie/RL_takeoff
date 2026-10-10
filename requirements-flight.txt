@@ -1,0 +1,5 @@
+# Small deploy/flight environment; training dependencies are recorded separately.
+cflib==0.1.33
+libusb-package==1.0.26.4
+msgpack==1.2.1
+PyYAML==6.0.3

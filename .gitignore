@@ -1,0 +1,18 @@
+# Publish only the retained release entry points.
+/*
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/RESULTS.md
+!/CURRENT_HOVER_RELEASE.json
+!/requirements-flight.txt
+!/requirements-flight.lock
+!/setup_release.py
+!/run_hover.py
+!/firmware/
+/firmware/*
+!/firmware/simple_hover_trial/
+/firmware/simple_hover_trial/*
+!/firmware/simple_hover_trial/build/
+/firmware/simple_hover_trial/build/*
+!/firmware/simple_hover_trial/build/firmware.zip
