@@ -4,7 +4,7 @@
 
 起飞和悬停使用同一 RL 四电机策略。用户已报告能够稳定起飞；偏航控制和自主降落仍未完成。该版本属于实验固件。
 
-[结果说明](RESULTS.md) · [完整运行包](https://github.com/Meng-Zhao-flie/RL_takeoff/releases/tag/hover-d4620ad5)
+[结果说明](RESULTS.md) · [固件与飞行工具](https://github.com/Meng-Zhao-flie/RL_takeoff/releases/tag/hover-d4620ad5)
 
 ## 准备
 
@@ -56,4 +56,4 @@ python run_hover.py --execute
 
 **Ctrl+C 会停电机，不执行自主降落。** 当前版本没有训练降落。Lighthouse 质量和电压保留为诊断信息。
 
-源代码、权重、构建证明和仿真证据随完整运行包保存；SHA 见 [CURRENT_HOVER_RELEASE.json](CURRENT_HOVER_RELEASE.json)。
+发布包只包含预构建固件、必要飞行工具和配置，离线检查校验这些文件的身份；不重新计算训练或仿真结果。SHA 见 [CURRENT_HOVER_RELEASE.json](CURRENT_HOVER_RELEASE.json)。
